@@ -1,0 +1,26 @@
+<% content_for :title do %>UCS Director Dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="apic_welcome" data-view="Text" data-title="UK&amp;I Lab" data-text="APIC Status Page." data-moreinfo="Protip: You can drag the widgets around!"></div>
+    </li>
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="powered" data-view="Meter" data-title="Powered on VMs" data-min="0" data-max="100"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="apic_tenant_list" data-view="List" data-unordered="true" data-title="Top 5 Tenants" data-moreinfo="Sorted by health"></div>
+    </li>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="realvaluation" data-view="Number" data-title="Total VM cost per hour" data-moreinfo="" data-prefix="£"></div>
+    </li>
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="2">
+      <div data-id="apic_app_list" data-view="List" data-unordered="true" data-title="Application Profiles" data-moreinfo="" data-prefix=""></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="apic_node_list" data-view="List" data-unordered="true" data-title="ACI Fabric Health" data-moreinfo="" data-prefix=""></div>
+    </li>
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="apic_convergence" data-view="Graph" data-title="Average CPU Load (Mhz)" style="background-color:#ff9618"></div>
+    </li>
+  </ul>
+</div>
