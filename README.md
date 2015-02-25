@@ -1,7 +1,7 @@
 # February 2015 Tech Huddle
-Cisco UK&amp;I DC Team - Public Repository
+Cisco UK&amp;I Data Centre Team - Public Repository
 
-This directory contains demonstrations shown at the Tech Huddle event in Q1 2015.
+This directory contains demonstrations shown at the Tech Huddle event in Q1 2015. A video of the session can be seen on the Cisco YouTube channel - https://www.youtube.com/watch?v=jUteSQqV98M
 
 Please note that these projects were written for proof of concept and demonstration purposes only.
 
@@ -19,6 +19,11 @@ Requires: php5 and an apache webserver.
 
 An alterantive GUI to UCS Director. Written as proof of concept and is not high quality code with many
 fast workarounds for demo purposes.
+
+UCSD 3-Tier Workflow
+--------------------
+The workflow used to create the 3 tier infrastructure with ACI as the underlying network can be obtained from the Cisco Communities page - https://communities.cisco.com/docs/DOC-56443
+
 
 License (MIT License)
 ---------------------
