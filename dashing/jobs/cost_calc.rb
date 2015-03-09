@@ -47,7 +47,6 @@ SCHEDULER.every '120s' do
 		
 		# Calculate rough cost to 2 decimal places - should sprintf this to x.xx
 		send_event('realvaluation', { current: current_cost, last: last_cost })
-#		send_event('realkarma', { current: current_cost, last: last_cost })
 
 		last_cost = current_cost
 	end

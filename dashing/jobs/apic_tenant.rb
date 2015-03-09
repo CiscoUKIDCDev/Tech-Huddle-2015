@@ -14,7 +14,7 @@ ucsd_api_key = ''
 # How many tenants to show
 show = 5;
 
-uri = URI('http://' ucsd_ip + '/app/api/rest?opName=userAPIGetTabularReport&opData=%7Bparam0:%22551%22,param1:%22APIC-BEDFONT%22,param2:%22TENANTS-HEALTH-T52%22%7D')
+uri = URI('http://' + ucsd_ip + '/app/api/rest?opName=userAPIGetTabularReport&opData=%7Bparam0:%22551%22,param1:%22APIC-BEDFONT%22,param2:%22TENANTS-HEALTH-T52%22%7D')
 
 SCHEDULER.every '30s' do
 	tenant_count = 0
