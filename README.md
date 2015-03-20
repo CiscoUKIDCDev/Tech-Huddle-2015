@@ -1,11 +1,10 @@
 # February 2015 Tech Huddle
-Cisco UK&amp;I Data Centre Team - Public Repository
 
-This directory contains demonstrations shown at the Tech Huddle event in Q1 2015. A video of the session can be seen on the Cisco YouTube channel - https://www.youtube.com/watch?v=jUteSQqV98M
+These are demonstrations shown at the Tech Huddle event in Q1 2015. A video of the session can be seen on the Cisco YouTube channel - https://www.youtube.com/watch?v=jUteSQqV98M
 
 Please note that these projects were written for proof of concept and demonstration purposes only.
 
-They are not supported and we do not recommend running them in a production environment.
+They are not supported and we do not recommend running them in a production environment as is.
 
 Dashing
 -------
